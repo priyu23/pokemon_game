@@ -1,3 +1,12 @@
+ID- 201703939
+Name- Priyaben Arora
+Date: Nov 28 2019
+Name of work: The Pokemon Game
+Language: PHP
+
+https://github.com/priyu23/pokemon_game/blob/master/201703939
+
+
 <?php
 
 class Pokemon
