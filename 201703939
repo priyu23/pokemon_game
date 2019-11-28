@@ -1,0 +1,36 @@
+<?php
+
+class Pokemon
+{
+    // Declare  properties
+    public $PokemonName;
+    public $PokemonType;
+    
+    // Method to Attack
+    public function doPokemonAttack(){
+        return (rand(1,100));
+    }
+}
+$Pokeballs = array();
+for($counter=1; $counter<6; $counter++){
+    $Pikachu = new Pokemon;
+    $Pikachu->PokemonName=(string)$counter;
+    $Pokeballs[] = $Pikachu;
+}
+// var_dump($Pokeballs);
+
+// Part One: #todo: Write code to perform 10 Battles
+// for each battle, randomly pull 2 Pokemon out of the Pokeball
+// let them each do their Attack
+// Strongest Attack Wins!
+// Output the contestants and the Winners!!!
+// POKEMON: I CHOOSE YOU!
+
+// Part Two: #todo: Give your Pokemon Names and Types: Create an array of Names
+// use rand to select a Name for each Pokemon
+// make sure to remove that name from the array so it is not issued Twice!!!  
+
+// Part Three: #todo: Create a POKEDEX to store the results of BATTLES  
+
+echo "fini";
+?>
